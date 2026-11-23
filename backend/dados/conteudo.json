@@ -1,0 +1,104 @@
+{
+  "nome": "Cauã Barcelos Corrêa",
+  "cargo": { "pt": "Estagiário em Análise de Dados", "en": "Data Analysis Intern" },
+  "topo": {
+    "etiqueta": { "pt": "Dados · Visão computacional · Automação", "en": "Data · Computer vision · Automation" },
+    "linhas": [
+      { "pt": "dados", "en": "data" },
+      { "pt": "que viram", "en": "turned into" },
+      { "pt": "decisão.", "en": "decisions." }
+    ],
+    "texto": {
+      "pt": "Desenvolvedor na área de dados. Construo pipelines, modelos e ferramentas que transformam dado bruto em informação: visão computacional, automações e relatórios que as equipes usam todo dia.",
+      "en": "Data developer. I build pipelines, models and tools that turn raw data into information: computer vision, automations and reports that teams use every day."
+    }
+  },
+  "letreiro": [
+    { "pt": "Python", "en": "Python" },
+    { "pt": "Visão computacional", "en": "Computer vision" },
+    { "pt": "Power BI", "en": "Power BI" },
+    { "pt": "Automação", "en": "Automation" },
+    { "pt": "Databricks", "en": "Databricks" },
+    { "pt": "SAP", "en": "SAP" },
+    { "pt": "Dados", "en": "Data" }
+  ],
+  "sobre": {
+    "segundos_por_frase": 15,
+    "frases": [
+      { "pt": "Gosto de problema real, com dado bagunçado e gente esperando a resposta. Começo pelo jeito mais simples que resolve, meço o resultado e só depois deixo bonito.", "en": "I like real problems, with messy data and people waiting for the answer. I start with the simplest thing that works, measure the result and only then make it pretty." },
+      { "pt": "Sou estudante de Engenharia Elétrica na UFES e trabalho com dados todos os dias.", "en": "I'm an Electrical Engineering student at UFES and I work with data every day." },
+      { "pt": "Me apaixonei por programação ainda na adolescência e nunca mais parei.", "en": "I fell in love with programming as a teenager and never stopped." },
+      { "pt": "O que mais me moldou na programação foram os videogames.", "en": "What shaped me most as a programmer was video games." },
+      { "pt": "Antes de dizer que algo melhorou, eu meço.", "en": "Before I say something got better, I measure it." },
+      { "pt": "Gosto de código que outra pessoa consegue abrir e entender no primeiro dia.", "en": "I like code that someone else can open and understand on day one." },
+      { "pt": "Quando um modelo erra, olho as imagens uma por uma até entender o motivo.", "en": "When a model gets it wrong, I go through the images one by one until I know why." },
+      { "pt": "Escrevo o passo a passo para que qualquer pessoa da equipe consiga rodar sem me chamar.", "en": "I write the step-by-step so anyone on the team can run it without calling me." },
+      { "pt": "Dado da empresa fica dentro da empresa. Cuido disso desde o primeiro script.", "en": "Company data stays inside the company. I take care of that from the first script." }
+    ],
+    "blocos": [
+      { "titulo": { "pt": "Como trabalho", "en": "How I work" }, "texto": { "pt": "Pouco código, nomes claros, um README só. Se a equipe não consegue manter, não está pronto.", "en": "Little code, clear names, a single README. If the team can't maintain it, it isn't done." } },
+      { "titulo": { "pt": "O que me move", "en": "What drives me" }, "texto": { "pt": "Ver uma tarefa de horas virar um clique, e o número na tela bater com o que acontece no campo.", "en": "Watching an hours-long task become one click, and the number on screen matching what happens in the field." } },
+      { "titulo": { "pt": "Idiomas", "en": "Languages" }, "texto": { "pt": "Português: Fluente/Nativo\nInglês: Fluente", "en": "Portuguese: Fluent/Native\nEnglish: Fluent" } }
+    ]
+  },
+  "projetos_periodo": { "pt": "Seleção 2024–2026", "en": "Selected 2024–2026" },
+  "projetos": [
+    {
+      "titulo": { "pt": "Artemis", "en": "Artemis" },
+      "tipo": { "pt": "Visão computacional · em produção", "en": "Computer vision · in production" },
+      "paragrafos": [
+        { "pt": "Sistema de visão computacional que analisa imagens em lote. Um detector encontra os objetos de interesse, um segundo modelo confirma o achado e uma regra de confiança só decide sozinha quando tem certeza.", "en": "Computer vision system that analyzes images in batches. A detector finds the objects of interest, a second model confirms the finding and a confidence rule only decides on its own when it is certain." },
+        { "pt": "Também desenvolvi a plataforma web: a varredura por polígonos, que analisa regiões inteiras de uma vez, e a consulta de postes individuais. Uma conferência que antes era feita à mão, foto por foto, agora sai em segundos.", "en": "I also built the web platform: polygon scanning, which analyzes whole regions at once, and lookup of individual poles. A check that used to be done by hand, photo by photo, now takes seconds." }
+      ],
+      "tags": ["Python", "YOLO", "PyTorch", "JavaScript", "Power BI"]
+    },
+    {
+      "titulo": { "pt": "Lince", "en": "Lince" },
+      "tipo": { "pt": "Ferramenta de rotulagem", "en": "Labeling tool" },
+      "paragrafos": [
+        { "pt": "Rotulador de imagens que roda localmente, sem depender de serviço externo. Abre a pasta de fotos, desenha as caixas com poucos atalhos e exporta tudo no formato pronto para treinar modelos de visão computacional. As imagens não saem da máquina.", "en": "Image labeler that runs locally, with no external service. Open the photo folder, draw boxes with a few shortcuts and export everything ready to train computer vision models. The images never leave the machine." }
+      ],
+      "tags": ["Python", "HTML/JS", "Git"]
+    },
+    {
+      "titulo": { "pt": "Bolsa UFES", "en": "UFES Scholarship" },
+      "tipo": { "pt": "Web · automação · suporte", "en": "Web · automation · support" },
+      "paragrafos": [
+        { "pt": "Na bolsa da UFES, fiz um site para identificação de salas, um pendrive automatizado para atualizar os computadores e um banco de dados que registra a entrada e a saída de cada máquina.", "en": "During my scholarship at UFES, I built a website for room identification, an automated USB drive to update computers and a database that tracks every machine coming in and going out." },
+        { "pt": "Também atuei no service desk, atendendo e resolvendo os chamados do dia a dia.", "en": "I also worked on the service desk, handling and solving day-to-day tickets." }
+      ],
+      "tags": ["HTML", "CSS", "JavaScript", "MySQL", "Bash"]
+    },
+    {
+      "titulo": { "pt": "Automações SAP", "en": "SAP Automation" },
+      "tipo": { "pt": "Scripts · produtividade", "en": "Scripts · productivity" },
+      "paragrafos": [
+        { "pt": "Scripts que fazem no SAP o que antes era feito à mão, linha por linha, com um passo a passo para qualquer pessoa da equipe rodar.", "en": "Scripts that do in SAP what used to be done by hand, line by line, with a step-by-step guide so anyone on the team can run them." }
+      ],
+      "tags": ["SAP GUI Scripting", "Python", "VBA"]
+    }
+  ],
+  "stack": [
+    { "nome": "Python", "icone": "python", "sigla": "" },
+    { "nome": "PyTorch", "icone": "pytorch", "sigla": "" },
+    { "nome": "YOLO", "icone": "ultralytics", "sigla": "" },
+    { "nome": "pandas", "icone": "pandas", "sigla": "" },
+    { "nome": "Databricks", "icone": "databricks", "sigla": "" },
+    { "nome": "MySQL", "icone": "mysql", "sigla": "" },
+    { "nome": "SAP", "icone": "sap", "sigla": "" },
+    { "nome": "Power BI", "icone": "", "sigla": "BI" },
+    { "nome": "Excel", "icone": "", "sigla": "XL" },
+    { "nome": "Bash", "icone": "gnubash", "sigla": "" },
+    { "nome": "Node.js", "icone": "nodedotjs", "sigla": "" },
+    { "nome": "Git", "icone": "git", "sigla": "" },
+    { "nome": "GitHub", "icone": "github", "sigla": "" },
+    { "nome": "JavaScript", "icone": "javascript", "sigla": "" },
+    { "nome": "HTML", "icone": "html5", "sigla": "" },
+    { "nome": "CSS", "icone": "css3", "sigla": "" }
+  ],
+  "contato": {
+    "email": "contatodevcabo@gmail.com",
+    "github": "https://github.com/devcabo",
+    "linkedin": "https://www.linkedin.com/in/devcabo/"
+  }
+}
