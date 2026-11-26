@@ -33,11 +33,9 @@ nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0}
 nav a{text-decoration:none}
 nav .right{display:flex;align-items:center;gap:24px}
 .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;min-width:0}
-.brand .role{color:var(--grey)}
-.brand .role::before{content:"/";margin-right:10px}
 #lang{font:500 12px var(--mono);letter-spacing:.08em;background:var(--black);color:var(--white);border:1px solid var(--black);border-radius:999px;padding:6px 12px;cursor:pointer}
 #lang:hover{background:var(--white);color:var(--black)}
-@media (max-width:640px){nav ul{display:none}.brand{flex-direction:column;gap:0}.brand .role::before{content:none}}
+@media (max-width:640px){nav ul{display:none}}
 
 /* hero */
 .hero{padding-block:140px 64px}

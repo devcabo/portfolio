@@ -11,7 +11,7 @@ const arquivo = p => new URL(p, raiz);
 
 // dados: JSON válido e com as seções que o site usa
 const data = JSON.parse(ler('backend/dados/conteudo.json'));
-for (const k of ['nome', 'cargo', 'topo', 'sobre', 'projetos', 'stack', 'contato'])
+for (const k of ['nome', 'topo', 'sobre', 'projetos', 'stack', 'contato'])
   assert.ok(k in data, `conteudo.json sem "${k}"`);
 for (const p of data.projetos) assert.ok(p.titulo?.pt, 'projeto sem título em português');
 for (const k of ['github', 'linkedin']) assert.match(data.contato[k], /^https:\/\//, `link do ${k} precisa começar com https://`);
