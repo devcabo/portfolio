@@ -48,8 +48,6 @@ nav .right{display:flex;align-items:center;gap:24px}
 
 /* hero */
 .hero{padding-block:140px 64px;position:relative;isolation:isolate}
-/* elemento: enorme e desfocado, girando atrás da legenda */
-.hero .fundo{position:absolute;z-index:-1;left:-8%;top:50%;width:min(760px,120vw);height:auto;opacity:.16;filter:blur(5px);pointer-events:none;translate:0 -50%;animation:gira 50s linear infinite;will-change:rotate}
 .hero h1{font-weight:900;font-size:var(--fs-display);line-height:.85;letter-spacing:-.04em;margin:0;text-transform:lowercase}
 .hero h1 .line{display:block;overflow:hidden}
 .hero h1 .line span{display:inline-block}
@@ -60,8 +58,6 @@ nav .right{display:flex;align-items:center;gap:24px}
 .scroll i{display:block;width:1px;height:40px;background:var(--black);animation:drop 1.6s ease-in-out infinite;transform-origin:top}
 @keyframes drop{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
-@keyframes gira{to{rotate:360deg}}
-@keyframes flutua{from{translate:0 -10px}to{translate:0 10px}}
 
 /* seções */
 section{padding-block:120px}
