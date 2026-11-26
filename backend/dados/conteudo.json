@@ -156,12 +156,8 @@
       },
       "paragrafos": [
         {
-          "pt": "Sistema de visão computacional que analisa imagens em lote. Um detector encontra os objetos de interesse, um segundo modelo confirma o achado e uma regra de confiança só decide sozinha quando tem certeza.",
-          "en": "Computer vision system that analyzes images in batches. A detector finds the objects of interest, a second model confirms the finding and a confidence rule only decides on its own when it is certain."
-        },
-        {
-          "pt": "Também desenvolvi a plataforma web: a varredura por polígonos, que analisa regiões inteiras de uma vez, e a consulta de postes individuais. Uma conferência que antes era feita à mão, foto por foto, agora sai em segundos.",
-          "en": "I also built the web platform: polygon scanning, which analyzes whole regions at once, and lookup of individual poles. A check that used to be done by hand, photo by photo, now takes seconds."
+          "pt": "Sistema de visão computacional que analisa imagens em lote: um detector encontra os objetos de interesse, um segundo modelo confirma o achado e uma regra de confiança só decide sozinha quando tem certeza. A plataforma web traz a varredura por polígonos e a consulta de postes individuais, e uma conferência que era feita à mão, foto por foto, passou a sair em segundos.",
+          "en": "Computer vision system that analyzes images in batches: a detector finds the objects of interest, a second model confirms the finding and a confidence rule only decides on its own when it is certain. The web platform adds polygon scanning and lookup of individual poles, and a check that was done by hand, photo by photo, now takes seconds."
         }
       ],
       "tags": [
@@ -183,8 +179,8 @@
       },
       "paragrafos": [
         {
-          "pt": "Rotulador de imagens que roda localmente, sem depender de serviço externo. Abre a pasta de fotos, desenha as caixas com poucos atalhos e exporta tudo no formato pronto para treinar modelos de visão computacional. As imagens não saem da máquina.",
-          "en": "Image labeler that runs locally, with no external service. Open the photo folder, draw boxes with a few shortcuts and export everything ready to train computer vision models. The images never leave the machine."
+          "pt": "Rotulador de imagens que roda localmente, sem depender de serviço externo. Ele abre a pasta de fotos, permite desenhar as caixas com poucos atalhos e exporta tudo no formato pronto para treinar modelos de visão computacional. As imagens não saem da máquina.",
+          "en": "Image labeler that runs locally, with no external service. It opens the photo folder, lets you draw boxes with a few shortcuts and exports everything ready to train computer vision models. The images never leave the machine."
         }
       ],
       "tags": [
@@ -204,12 +200,12 @@
       },
       "paragrafos": [
         {
-          "pt": "Na bolsa da UFES, fiz um site para identificação de salas, um pendrive automatizado para atualizar os computadores e um banco de dados que registra a entrada e a saída de cada máquina.",
-          "en": "During my scholarship at UFES, I built a website for room identification, an automated USB drive to update computers and a database that tracks every machine coming in and going out."
+          "pt": "Na bolsa da UFES, Cauã desenvolveu um site para identificação de salas, um pendrive automatizado para atualizar os computadores e um banco de dados que registra a entrada e a saída de cada máquina.",
+          "en": "During his scholarship at UFES, Cauã built a website for room identification, an automated USB drive to update computers and a database that tracks every machine coming in and going out."
         },
         {
-          "pt": "Também atuei no service desk, atendendo e resolvendo os chamados do dia a dia.",
-          "en": "I also worked on the service desk, handling and solving day-to-day tickets."
+          "pt": "Também atuou no service desk, atendendo e resolvendo os chamados do dia a dia.",
+          "en": "He also worked on the service desk, handling and solving day-to-day tickets."
         }
       ],
       "tags": [

@@ -10,7 +10,7 @@
   --fs-body:17px;
   --fs-small:12px;
   --display:"Archivo","Helvetica Neue",Arial,sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --mono:"Archivo","Helvetica Neue",Arial,sans-serif; /* textos pequenos também em sans-serif */
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -57,6 +57,10 @@ nav .right{display:flex;align-items:center;gap:24px}
 .scroll{font-family:var(--mono);font-size:12px;display:flex;align-items:center;gap:10px}
 .scroll i{display:block;width:1px;height:40px;background:var(--black);animation:drop 1.6s ease-in-out infinite;transform-origin:top}
 @keyframes drop{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* rabisco: respiro entre o topo e o sobre */
+.rabisco{margin:0 auto;padding-block:24px 96px;display:flex;justify-content:center}
+.rabisco img{width:min(520px,80%);height:auto}
 
 /* seções */
 section{padding-block:120px}
