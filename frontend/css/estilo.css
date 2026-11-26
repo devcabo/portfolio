@@ -106,6 +106,7 @@ section{padding-block:120px}
 /* contato */
 .contact > span.label{display:block;margin-bottom:24px}
 .contact .big{font-weight:900;font-size:var(--fs-display);line-height:.85;letter-spacing:-.04em;margin:0 0 48px}
+.contact .big .q{margin-left:.08em}
 .links{display:flex;flex-wrap:wrap;gap:12px}
 .links a,.links button{font:500 14px var(--mono);color:var(--white);background:none;border:1px solid var(--white);border-radius:999px;padding:12px 22px;text-decoration:none;cursor:pointer;transition:background .25s,color .25s}
 .links a:hover,.links button:hover{background:var(--white);color:var(--black)}
