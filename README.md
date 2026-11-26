@@ -1,6 +1,6 @@
 # Portfólio — Cauã Barcelos Corrêa
 
-**Site:** https://devcabo.github.io/portfolio/
+**Site:** https://devcabo.com.br
 
 ## Arquitetura
 

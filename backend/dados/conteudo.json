@@ -108,17 +108,13 @@
         "en": "TapSync"
       },
       "tipo": {
-        "pt": "Produto próprio · NFC · SaaS",
-        "en": "Own product · NFC · SaaS"
+        "pt": "Produto próprio · NFC",
+        "en": "Own product · NFC"
       },
       "paragrafos": [
         {
-          "pt": "Placa NFC com QR Code para pequenos negócios. O cliente encosta o celular na placa e cai direto na avaliação do Google, no WhatsApp, no Instagram, numa página de links, num site ou numa loja. O comerciante troca o destino pelo painel, sem trocar a placa, e acompanha quantas pessoas tocaram.",
-          "en": "NFC plate with a QR code for small businesses. Customers tap their phone on the plate and land straight on the Google review, WhatsApp, Instagram, a link page, a website or a store. The owner changes the destination from the dashboard, without replacing the plate, and tracks how many people tapped."
-        },
-        {
-          "pt": "Construí a plataforma inteira: painel do comerciante, área interna, sites e lojas dos clientes, cobrança de assinaturas e um banco multi-cliente em que cada negócio só enxerga os próprios dados.",
-          "en": "I built the whole platform: the owner's dashboard, the internal admin area, customer websites and stores, subscription billing and a multi-tenant database where each business only sees its own data."
+          "pt": "Placa NFC com QR Code que leva o cliente direto para o canal do negócio, como avaliação, WhatsApp ou site, com o destino gerenciado por um painel.",
+          "en": "NFC plate with a QR code that takes customers straight to a business channel, such as reviews, WhatsApp or a website, with the destination managed from a dashboard."
         }
       ],
       "tags": [
@@ -136,19 +132,17 @@
         "en": "Correa Digital"
       },
       "tipo": {
-        "pt": "Sites sob medida · parceria",
-        "en": "Custom websites · partnership"
+        "pt": "Sites sob medida",
+        "en": "Custom websites"
       },
       "paragrafos": [
         {
-          "pt": "Criação de sites para pequenos negócios, em parceria. Desenvolvemos o site sob medida, publicamos com domínio próprio e cuidamos da manutenção todo mês, com cobrança recorrente pelo Asaas.",
-          "en": "Websites for small businesses, built in partnership. We develop the site to order, publish it on the client's own domain and take care of it every month, with recurring billing through Asaas."
+          "pt": "Criação e manutenção de sites sob medida.",
+          "en": "Custom website development and maintenance."
         }
       ],
       "tags": [
-        "Web",
-        "Asaas",
-        "Domínio e hospedagem"
+        "Web"
       ]
     },
     {
@@ -224,27 +218,6 @@
         "JavaScript",
         "MySQL",
         "Bash"
-      ]
-    },
-    {
-      "titulo": {
-        "pt": "Automações SAP",
-        "en": "SAP Automation"
-      },
-      "tipo": {
-        "pt": "Scripts · produtividade",
-        "en": "Scripts · productivity"
-      },
-      "paragrafos": [
-        {
-          "pt": "Scripts que fazem no SAP o que antes era feito à mão, linha por linha, com um passo a passo para qualquer pessoa da equipe rodar.",
-          "en": "Scripts that do in SAP what used to be done by hand, line by line, with a step-by-step guide so anyone on the team can run them."
-        }
-      ],
-      "tags": [
-        "SAP GUI Scripting",
-        "Python",
-        "VBA"
       ]
     }
   ],
