@@ -53,8 +53,6 @@ function render() {
   document.querySelectorAll('[data-en]').forEach(el => el.innerHTML = el.dataset[lang]);
   document.getElementById('heroLines').innerHTML = (data.topo?.linhas || [])
     .map(l => `<span class="line"><span>${esc(tr(l))}</span></span>`).join('');
-  const words = (data.letreiro || []).map(w => `<span>${esc(tr(w))}</span>`).join('');
-  document.getElementById('track').innerHTML = words + words;
   const frases = data.sobre?.frases || [];
   if (frases.length) splitAbout(tr(frases[pi % frases.length]), lang !== 'pt' || pi > 0);
   document.getElementById('facts').innerHTML = (data.sobre?.blocos || []).map(b =>

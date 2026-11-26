@@ -50,12 +50,6 @@ nav .right{display:flex;align-items:center;gap:24px}
 .scroll i{display:block;width:1px;height:40px;background:var(--black);animation:drop 1.6s ease-in-out infinite;transform-origin:top}
 @keyframes drop{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
-/* letreiro */
-.marquee{border-block:1px solid var(--black);overflow:hidden;padding-block:18px;white-space:nowrap}
-.marquee .track{display:inline-flex;gap:48px;animation:slide 30s linear infinite;font-weight:800;font-size:clamp(28px,5vw,56px);text-transform:uppercase;letter-spacing:-.02em}
-.marquee .track span::after{content:"✦";margin-left:48px;font-size:.5em;vertical-align:middle}
-@keyframes slide{to{transform:translateX(-50%)}}
-
 /* seções */
 section{padding-block:120px}
 .head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:56px}
@@ -101,4 +95,4 @@ section{padding-block:120px}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:120px;padding-top:24px;border-top:1px solid var(--line-dark)}
 #erro{background:var(--black);color:var(--white);font-family:var(--mono);padding:12px 16px;margin:0}
 
-@media (prefers-reduced-motion:reduce){*:not(.track){animation:none!important;transition:none!important}.marquee .track{animation-duration:60s}#loader{display:none}.about-text .w{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}#loader{display:none}.about-text .w{opacity:1}}
