@@ -58,9 +58,9 @@ nav .right{display:flex;align-items:center;gap:24px}
 .scroll i{display:block;width:1px;height:40px;background:var(--black);animation:drop 1.6s ease-in-out infinite;transform-origin:top}
 @keyframes drop{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
-/* rabisco: respiro entre o topo e o sobre */
+/* elemento gráfico: respiro entre o topo e o sobre */
 .rabisco{margin:0 auto;padding-block:24px 96px;display:flex;justify-content:center}
-.rabisco img{width:min(520px,80%);height:auto}
+.rabisco img{width:min(360px,70%);height:auto}
 
 /* seções */
 section{padding-block:120px}
@@ -72,7 +72,7 @@ section{padding-block:120px}
 .dark .label{color:var(--grey-dark)}
 .about-text{font-weight:700;font-size:var(--fs-statement);line-height:1.18;letter-spacing:-.015em;max-width:26ch;min-height:3.5em;margin:0 auto;text-align:center;text-wrap:balance}
 .about-text .w{opacity:.18;transition:opacity .2s}
-#sobre .head{justify-content:center}
+#sobre .head{justify-content:center;text-align:center}
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;margin-top:80px;border-top:1px solid var(--line-dark);padding-top:32px;text-align:center}
 .facts p{margin:12px auto 0;color:#cfcfcf;max-width:34ch;font-size:16px}
 

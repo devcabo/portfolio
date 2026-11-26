@@ -200,12 +200,8 @@
       },
       "paragrafos": [
         {
-          "pt": "Na bolsa da UFES, Cauã desenvolveu um site para identificação de salas, um pendrive automatizado para atualizar os computadores e um banco de dados que registra a entrada e a saída de cada máquina.",
-          "en": "During his scholarship at UFES, Cauã built a website for room identification, an automated USB drive to update computers and a database that tracks every machine coming in and going out."
-        },
-        {
-          "pt": "Também atuou no service desk, atendendo e resolvendo os chamados do dia a dia.",
-          "en": "He also worked on the service desk, handling and solving day-to-day tickets."
+          "pt": "Na bolsa da UFES, Cauã desenvolveu um site para identificação de salas, um pendrive automatizado para atualizar os computadores e um banco de dados que registra a entrada e a saída de cada máquina, além de atuar no service desk resolvendo os chamados do dia a dia.",
+          "en": "During his scholarship at UFES, Cauã built a website for room identification, an automated USB drive to update computers and a database that tracks every machine coming in and going out, while also working on the service desk solving day-to-day tickets."
         }
       ],
       "tags": [
@@ -340,7 +336,7 @@
     }
   ],
   "contato": {
-    "email": "contatodevcabo@gmail.com",
+    "email": "contato@devcabo.com.br",
     "github": "https://github.com/devcabo",
     "linkedin": "https://www.linkedin.com/in/devcabo/"
   }
