@@ -1,7 +1,5 @@
 # Portfólio — Cauã Barcelos Corrêa
 
-Site pessoal em preto e branco, em português e inglês.
-
 **Site:** https://devcabo.github.io/portfolio/
 
 ## Arquitetura
