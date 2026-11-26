@@ -62,6 +62,10 @@ nav .right{display:flex;align-items:center;gap:24px}
 @keyframes drop{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
 
+/* elemento: enorme e desfocado, girando atrás da legenda */
+.hero .fundo{position:absolute;z-index:-1;left:-8%;top:50%;width:min(760px,120vw);height:auto;opacity:.16;filter:blur(5px);pointer-events:none;translate:0 -50%;animation:gira 50s linear infinite;will-change:rotate}
+@keyframes gira{to{rotate:360deg}}
+
 /* seções */
 section{padding-block:120px}
 .head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:56px}
