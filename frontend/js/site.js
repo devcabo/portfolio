@@ -99,7 +99,7 @@ setInterval(() => {
 // copiar e-mail
 document.getElementById('copyMail').addEventListener('click', e => {
   const mail = data.contato?.email || '';
-  navigator.clipboard.writeText(mail).then(() => e.target.textContent = lang === 'en' ? 'copied ✓' : 'copiado ✓', () => e.target.textContent = mail);
+  navigator.clipboard.writeText(mail).then(() => e.target.textContent = lang === 'en' ? 'copied' : 'copiado', () => e.target.textContent = mail);
 });
 
 // barra some ao rolar para baixo e volta ao rolar para cima
