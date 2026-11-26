@@ -1,4 +1,5 @@
 # A cada envio para a main: testa, junta frontend + dados e publica no GitHub Pages.
+# Montagem e publicação ficam em jobs separados: o deploy só começa depois que o pacote do site termina de subir.
 name: Publicar site
 
 on:
@@ -16,11 +17,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  publicar:
+  montar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,5 +41,12 @@ jobs:
         with:
           path: _site
 
+  publicar:
+    needs: montar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v4
