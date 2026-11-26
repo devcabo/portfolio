@@ -51,7 +51,7 @@ nav .right{display:flex;align-items:center;gap:32px}
 
 /* hero */
 .hero{padding-block:140px 64px;position:relative;isolation:isolate}
-.hero h1{font-weight:900;font-size:clamp(44px,9vw,136px);line-height:.92;letter-spacing:-.025em;margin:0;text-transform:uppercase}
+.hero h1{font-weight:900;font-size:clamp(44px,9vw,136px);line-height:1.06;letter-spacing:-.025em;margin:0;text-transform:uppercase}
 .hero h1 .line{display:block;overflow:hidden;padding-top:.16em;margin-top:-.16em} /* folga em cima para til e acento das maiúsculas */
 .hero h1 .line span{display:inline-block}
 .hero .label{display:block;margin-bottom:28px}
