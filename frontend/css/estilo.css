@@ -22,6 +22,9 @@ img{max-width:100%}
 a{color:inherit}
 .wrap{max-width:1480px;margin:0 auto;padding-left:max(clamp(16px,3.5vw,48px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3.5vw,48px),env(safe-area-inset-right,0px))}
 .label{font-family:var(--mono);font-size:var(--fs-small);letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
+/* seleção só troca a cor da letra: sem caixas que se juntam entre linhas apertadas */
+::selection{background:transparent;color:var(--grey)}
+.dark ::selection{color:var(--grey-dark)}
 :focus-visible{outline:2px solid currentColor;outline-offset:3px}
 
 /* preloader */
