@@ -47,7 +47,9 @@ nav .right{display:flex;align-items:center;gap:24px}
 @media (max-width:640px){nav ul{display:none}}
 
 /* hero */
-.hero{padding-block:140px 64px}
+.hero{padding-block:140px 64px;position:relative;isolation:isolate}
+/* onda: grande, bem clara, girando atrás do título */
+.hero .onda{position:absolute;z-index:-1;top:50%;left:50%;width:min(780px,110vw);height:auto;opacity:.09;pointer-events:none;translate:-50% -50%;animation:gira 60s linear infinite}
 .hero h1{font-weight:900;font-size:var(--fs-display);line-height:.85;letter-spacing:-.04em;margin:0;text-transform:lowercase}
 .hero h1 .line{display:block;overflow:hidden}
 .hero h1 .line span{display:inline-block}
@@ -105,10 +107,6 @@ section{padding-block:120px}
 /* contato */
 .contact > span.label{display:block;margin-bottom:24px}
 .contact .big{font-weight:900;font-size:var(--fs-display);line-height:.85;letter-spacing:-.04em;margin:0 0 48px}
-.contact-top{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-bottom:48px}
-@media (max-width:720px){.contact-top{flex-wrap:wrap}}
-.contact-top .big{margin:0;font-size:clamp(48px,10vw,160px)}
-.onda{width:clamp(120px,16vw,220px);height:auto;flex:none}
 .links{display:flex;flex-wrap:wrap;gap:12px}
 .links a,.links button{font:500 14px var(--mono);color:var(--white);background:none;border:1px solid var(--white);border-radius:999px;padding:12px 22px;text-decoration:none;cursor:pointer;transition:background .25s,color .25s}
 .links a:hover,.links button:hover{background:var(--white);color:var(--black)}
