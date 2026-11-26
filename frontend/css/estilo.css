@@ -50,8 +50,6 @@ nav .right{display:flex;align-items:center;gap:24px}
 .hero{padding-block:140px 64px;position:relative;isolation:isolate}
 /* elemento: enorme e desfocado, girando atrás da legenda */
 .hero .fundo{position:absolute;z-index:-1;left:-8%;top:50%;width:min(760px,120vw);height:auto;opacity:.16;filter:blur(5px);pointer-events:none;translate:0 -50%;animation:gira 50s linear infinite;will-change:rotate}
-/* onda: grande, bem clara, girando atrás do título */
-.hero .onda{position:absolute;z-index:-1;top:50%;left:50%;width:min(780px,110vw);height:auto;opacity:.09;pointer-events:none;translate:-50% -50%;animation:gira 60s linear infinite}
 .hero h1{font-weight:900;font-size:var(--fs-display);line-height:.85;letter-spacing:-.04em;margin:0;text-transform:lowercase}
 .hero h1 .line{display:block;overflow:hidden}
 .hero h1 .line span{display:inline-block}
