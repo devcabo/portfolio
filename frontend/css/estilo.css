@@ -60,7 +60,9 @@ nav .right{display:flex;align-items:center;gap:24px}
 
 /* elemento gráfico: respiro entre o topo e o sobre */
 .rabisco{margin:0 auto;padding-block:24px 96px;display:flex;justify-content:center}
-.rabisco img{width:min(360px,70%);height:auto}
+.rabisco img{width:min(360px,70%);height:auto;animation:gira 40s linear infinite,flutua 6s ease-in-out infinite alternate}
+@keyframes gira{to{rotate:360deg}}
+@keyframes flutua{from{translate:0 -10px}to{translate:0 10px}}
 
 /* seções */
 section{padding-block:120px}
